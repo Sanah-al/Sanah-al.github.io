@@ -1,0 +1,253 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px;
+    background: #2F4F4F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+
+    font-size:: 25px;
+    color: #FF1493;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #FFC0CB;
+}
+
+
+.abouthome {
+    min-height: 100vh;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+
+.about-me{
+    background: url(mepic.png) no-repeat left;
+    background-size: 60% 115%;
+    overflow: hidden;
+    padding: 100px 0;
+    background-color: #fff;
+    border: solid #fff;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+
+.inner-box{
+    width: 50%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 50px;
+    border: 15px solid #182929;
+    margin-top: -5%;
+    margin-right: 10%;
+}
+.inner-box h1{
+   margin-bottom: 30px; 
+   font-size: 30px;
+   font-weight: 900;
+
+}
+
+.text {
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+body{
+    min-height: 100vh;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+
+}
+
+.workexp{
+    background: url(pic2.png) no-repeat right;
+    background-size: 70% 80%;
+    overflow: hidden;
+    padding: 100px 0;
+    background-color: #fff;
+    border: solid #fff;
+    border-top: solid 70px #fff;
+    margin-right: 10%;
+
+}
+
+.inner-box2{
+    width: 50%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 50px;
+    border: 15px solid #182929;
+    margin-left: 10%;
+}
+.inner-box2 h2{
+   margin-bottom: 30px; 
+   font-size: 30px;
+   font-weight: 900;
+
+}
+
+.text2 {
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1200px){
+    .inner-box{
+        padding: 80px;
+
+    }
+}
+@media screen and (max-width: 1000px){
+    .about-me{
+        background-size: 100%;
+        padding: 100px 40px;
+
+    }
+    .inner-box{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about-me{
+        padding: ;
+
+    }
+    .inner-box{
+        padding: 60px;
+        
+    }
+}
+
+body{
+    min-height: 100vh;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+
+.volexp{
+    background: url(pic33.png) no-repeat left;
+    background-size: 70% 90%;
+    overflow: hidden;
+    padding: 100px 0;
+    background-color: #fff;
+    border-top: solid 60px #fff;
+    margin-left: 10%;
+
+}
+
+.inner-box3{
+    width: 50%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 30px;
+    box-shadow: 0 0 10px #000000;
+    border: 15px solid #182929;
+    margin-right:10%;
+
+}
+.inner-box3 h3{
+   margin-bottom: 20px; 
+   font-size: 30px;
+   font-weight: 900;
+
+}
+
+.text3 {
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1200px){
+    .inner-box{
+        padding: 80px;
+
+    }
+}
+@media screen and (max-width: 1000px){
+    .about-me{
+        background-size: 100%;
+        padding: 100px 40px;
+
+    }
+    .inner-box{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about-me{
+        padding: ;
+
+    }
+    .inner-box{
+        padding: 60px;
+        
+    }
+}

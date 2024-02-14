@@ -1,0 +1,134 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+
+}
+
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:98%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+
+    font-size:: 25px;
+    color: #FF1493;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 1s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #FFC0CB;
+}
+
+.home {
+    height: 100vh;
+    background: linear-gradient(-90deg,#2F4F4F 65%, #fff 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    background: #2F4F4F;
+    border: 25px solid #fff;
+    outline: 25px solid #2F4F4F;
+}
+
+.home-image img {
+    width: 250%;
+    height: 190%;
+    padding-top: 50px ;
+    padding-bottom: -50px;
+    padding-left: 50px;
+}
+
+.home-content{
+    max-width: 600px;
+    color: #fff;
+    text-align: right;
+}
+
+.home-content h1{
+    font-size: 50px;
+    line-height: 0.25;
+}
+
+.home-content h3{
+    font-size: 20px;
+    color: #FFC0CB;
+}
+
+.home-content p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.home-sci {
+    display: inline-flex;
+
+}
+
+.home-sci a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #FF1493;
+    text-decoration: none;
+    margin-right: 25px;
+
+
+}
+
+.home-sci a:hover {
+    background: #FFC0CB;
+    color: #fff;
+    border-color: #FFC0CB;
+    box-shadow: 0 0 10px #FFC0CB;
+}
+
+.btn {
+    display: inline-block; /* Added this line to make them appear next to each other */
+    padding: 12px 35px;
+    background: #FF1493;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #FFC0CB;
+}
